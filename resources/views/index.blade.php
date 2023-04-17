@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>
-      LIADS - Laboratório de Informática Aplicada e Desenvolvimento de Software
+      Tailwind Starter Template - Landing Page Template: Tailwind Toolbox
     </title>
     <meta name="description" content="Simple landind page" />
     <meta name="keywords" content="" />
@@ -30,7 +30,7 @@
       <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
         <div class="pl-4 flex items-center">
           <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
-          <svg xmlns="http://www.w3.org/2000/svg"
+  <!--<svg xmlns="http://www.w3.org/2000/svg"
      width="2in"
      viewBox="0 0 2203 608">
   <path id="icon"
@@ -1025,7 +1025,9 @@
              56.89,152.38 119.90,135.11 133.16,84.19
              135.53,75.06 135.53,60.05 133.16,50.92
              124.15,16.51 89.02,-5.63 54.39,1.25 Z" />
-</svg>
+</svg>-->
+
+<img src="logo-sem-fundo.svg" width="100">
           
           <!--Icon from: http://www.potlabicons.com/ -->
             <!--<svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005">
@@ -1112,28 +1114,20 @@
     <section class="bg-white border-b py-8">
       <div class="container max-w-5xl mx-auto m-8">
         <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-          Conteúdos
+          Title
         </h2>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
         <div class="flex flex-wrap">
-          @foreach($posts as $post)
-          <div class="w-full sm:w-1/2 p-6 {{ $loop->index % 2 == 1 ? 'sm:mt-5' : '' }}">
-            <img src="{{$post->image}}" class="sm:h-64 mx-auto" alt="">
-            <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-              {{$post->title}}
-            </h3>
-
-            <p class="text-gray-600 mb-8">
-              {{$post->content}}
-              <a class="text-pink-500 underline" href="https://undraw.co/">undraw.co</a>
-            </p>
-          </div>
-        @endforeach
+          @foreach($posts as $post):
+            <div class="sm:w-1/2">
+              Teste
+            </div>
+          @endforeach
           <div class="w-5/6 sm:w-1/2 p-6">
             <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-              primeiro ipsum dolor sit amet
+              Lorem ipsum dolor sit amet
             </h3>
             <p class="text-gray-600 mb-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
@@ -1517,7 +1511,7 @@
         </div>
       </div>
     </section>
-   <!-- <section class="bg-gray-100 py-8">
+    <section class="bg-gray-100 py-8">
       <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
         <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
           Pricing
@@ -1597,7 +1591,7 @@
           </div>
         </div>
       </div>
-    </section>-->
+    </section>
     <!-- Change the colour #f8fafc to match the previous section colour -->
     <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
