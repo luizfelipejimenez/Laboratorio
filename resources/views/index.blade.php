@@ -127,7 +127,8 @@
               <br />
 
               Images from:
-
+              
+          <img src="{{$post->image}}" alt="" srcset="">
               <a class="text-pink-500 underline" href="https://undraw.co/">undraw.co</a>
             </p>
             </div>
