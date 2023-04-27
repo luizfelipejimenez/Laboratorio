@@ -55,6 +55,14 @@
             <li class="mr-3">
               <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">link</a>
             </li>
+            <li class="mr-3">
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="https://trello.com/1/authorize?expiration=1day&name=MyPersonalToken&scope=read&response_type=token&key=8e57ef6c8283be3233f6d7be1aa58449&return_url=http://127.0.0.1:8000/token/1/">Autorizar</a>
+            </li>
+            <li class="mr-3">
+              <form action="https://trello.com/1/authorize?expiration=1day&name=MyPersonalToken&scope=read&response_type=token&key=8e57ef6c8283be3233f6d7be1aa58449&return_url=http://127.0.0.1:8000/token/1" method="post">
+                <button class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" type="submit">Autorizar</button>
+              </form>
+            </li>
           </ul>
           <button
             id="navAction"

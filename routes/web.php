@@ -18,3 +18,4 @@ use App\Http\Controllers\PostController;
 Route::get('/', [HomeController::class, 'index']);
 
 Route::resource('/admin', PostController::class);
+Route::get('/token/{user}', [HomeController::class, 'token']);
